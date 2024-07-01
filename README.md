@@ -8,60 +8,29 @@ Clicking on a specific listing directs the user to a detailed place page, which 
 
 The checkout process supports multiple payment methods, including PayPal, Google Pay, Visa, American Express, and Mastercard, ensuring a seamless and secure payment experience.
 
-## Available Scripts
+In your project directory, you can execute the following scripts:
 
-In the project directory, you can run:
+### Development
+- **`npm start`**  
+  Launches the app in development mode. Visit [http://localhost:3000](http://localhost:3000) in your browser. The app will automatically reload if you make changes, and you may also see linting errors in the console.
 
-### `npm start`
+### Testing
+- **`npm test`**  
+  Starts the test runner in interactive watch mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000/) to view it in your browser.
+### Production Build
+- **`npm run build`**  
+  Compiles the app for production into the `build` folder. It bundles React for production, optimizing the build for performance. The build is minified, and filenames include hashes. The app will be ready for deployment!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Ejecting
+- **`npm run eject`**  
+  **Note:** This is irreversible. Once ejected, you cannot undo this action!  
+  Ejecting copies all configuration files and dependencies like Webpack, Babel, and ESLint directly into your project. You'll have full control over them, but all commands except `eject` will still work, pointing to these copied scripts for modification. Use eject only if you need to customize beyond what the default setup allows.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Additional Information
+- **Code Splitting:** Moved to [Code Splitting Documentation](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Analyzing Bundle Size:** Moved to [Analyzing Bundle Size Documentation](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Making a Progressive Web App:** Moved to [Making a PWA Documentation](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Advanced Configuration:** Moved to [Advanced Configuration Documentation](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Deployment:** Moved to [Deployment Documentation](https://facebook.github.io/create-react-app/docs/deployment)
+- **`npm run build` fails to minify:** Moved to [Troubleshooting Documentation](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
