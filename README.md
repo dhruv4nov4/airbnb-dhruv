@@ -8,7 +8,7 @@ Clicking on a specific listing directs the user to a detailed place page, which 
 
 The checkout process supports multiple payment methods, including PayPal, Google Pay, Visa, American Express, and Mastercard, ensuring a seamless and secure payment experience.
 
-In your project directory, you can execute the following scripts:
+In project directory, you can execute the following scripts:
 
 ### Development
 - **`npm start`**  
