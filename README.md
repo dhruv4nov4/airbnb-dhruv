@@ -9,21 +9,27 @@ Clicking on a specific listing directs the user to a detailed place page, which 
 The checkout process supports multiple payment methods, including PayPal, Google Pay, Visa, American Express, and Mastercard, ensuring a seamless and secure payment experience.
 
 In project directory, you can execute the following scripts:
-
+### Cloning Repository
+- **`git clone <githublink>`**  
+  To clone airbnb project repository on system.
+  
 ### Development
-- **`npm start`**  
+- **`npm install --force`**  
+  To install dependencies of pakage.json
+
+- **`npm run-script start`**  
   Launches the app in development mode. Visit [http://localhost:3000](http://localhost:3000) in your browser. The app will automatically reload if you make changes, and you may also see linting errors in the console.
 
 ### Testing
-- **`npm test`**  
+- **`npm run-script test`**  
   Starts the test runner in interactive watch mode.
 
 ### Production Build
-- **`npm run build`**  
+- **`npm run-script build`**  
   Compiles the app for production into the `build` folder. It bundles React for production, optimizing the build for performance. The build is minified, and filenames include hashes. The app will be ready for deployment!
 
 ### Ejecting
-- **`npm run eject`**  
+- **`npm run-script eject`**  
   **Note:** This is irreversible. Once ejected, you cannot undo this action!  
   Ejecting copies all configuration files and dependencies like Webpack, Babel, and ESLint directly into your project. You'll have full control over them, but all commands except `eject` will still work, pointing to these copied scripts for modification. Use eject only if you need to customize beyond what the default setup allows.
 
